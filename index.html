@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I build websites or web applications and this is my portfolio.">
+    <meta name="keywords" content="website, web developer, creating websites, Lukas Vavra">
+    <meta name="author" content="Lukas Vavra">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name=subject content=Portfolio>
+    <meta name=robots content=index,follow>
+    <meta name=googlebot content=index,follow>
+    <meta property=og:url content=http://lukasvavra.wz.cz />
+    <meta property=og:type content=website>
+    <meta property=og:title content=lukasvavra.wz.cz>
+    <meta property=og:image content=images/lukasvavra-share.png>
+    <meta property=og:image:width content=1249px>
+    <meta property=og:image:height content=626px>
+    <meta property=og:description content="I build websites or web applications and this is my portfolio.">
+    <meta property=og:site_name content=lukasvavra.wz.cz>
+    <meta property=og:locale content=en_GB>
+    <meta property=article:author content="Lukáš Vávra">
+    <meta name=twitter:card content=summary>
+    <meta name=twitter:url content=http://lukasvavra.wz.cz />
+    <meta name=twitter:title content=lukasvavra.wz.cz>
+    <meta name=twitter:description content="I build websites or web applications and this is my portfolio.">
+    <meta name=twitter:image content=/images/lukasvavra-share.png>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
+    <title>Lukas Vavra</title>
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="loader">
+            <span>{</span><span>}</span>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="web-logo"><a href="http://lukasvavra.wz.cz"><img src="/images/logo.png" alt="logo"></a></li>
+                <li class="item"><a id="menuItem1" href="#work"><span class="lang-text1"></span></a></li>
+                <li class="item"><a id="menuItem2" href="#about"><span class="lang-text2"></span></a></li>
+                <li class="item"><a id="menuItem3" href="#contact"><span class="lang-text3"></span></a></li>
+                <li class="item">
+                    <div class="select">
+                        <select id="country_select" class="js-example-basic-single"
+                            onchange="loadsLanguage(this.value,null);"></select>
+                    </div>
+                </li>
+                <li class="toggle"><a><i class="fas fa-bars fa-lg"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="container-item">
+            <div class="contact-icons" data-aos="fade-up" data-aos-duration="3000">
+                <div class="fixed-icon">
+                    <a href="mailto:lukyvavra@seznam.cz">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                </div>
+                <div class="fixed-icon">
+                    <a href="https://www.linkedin.com/in/luk%C3%A1%C5%A1-v%C3%A1vra-0117791b6/" target="_blank"
+                        referrerpolicy="no-referrer">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
+                <div class="fixed-icon">
+                    <a href="https://github.com/hawrancz99" target="_blank" referrerpolicy="no-referrer">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-item item1 scroll" data-aos="fade-down" data-aos-duration="3000">
+            <div class="animation-container">
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_yd8fbnml.json"
+                    background="transparent" speed="1" style="width: 290px; height: 290px;" class="lottie-animation"
+                    loop autoplay>
+                </lottie-player>
+            </div>
+            <div class="landing-div">
+                <span class="landing-text"></span>
+            </div>
+        </div>
+        <div class="container-item item2 scroll" data-aos="fade-up" data-aos-duration="3000">
+            <div class="about-me"><span class="lang-text4"></span>
+                <a class="thesis hover-underline-animation " href="#contact"><span class="lang-text5"></span></a>
+            </div>
+        </div>
+        <div class="container-item item3" id="work">
+            <h1 data-aos="fade-up" data-aos-duration="3000"><span class="parentheses">`${</span><span
+                    class="lang-text6"></span><span class="parentheses">}`</span></h1>
+            <div class="work-item scroll" data-aos="fade-up" data-aos-duration="3000">
+                <div class="work-text">
+                    <h2>Office Maps GBS</h2>
+                    <p class="text-justify"><span class="lang-text7"></span><a class="thesis hover-underline-animation"
+                            href="https://vskp.vse.cz/83250_navrh-a-implementace-interaktivni-mapy-kancelare-spolecnosti-siemens-s-r-o?title=siemens&type=Bakal%C3%A1%C5%99sk%C3%A1+pr%C3%A1ce&programme=Aplikovan%C3%A1+informatika%2FAplikovan%C3%A1+informatika&year=2021"
+                            target="_blank" referrerpolicy="no-referrer"><span class="lang-text8"></span></a>
+                    </p>
+                    <div class="badges">
+                        <span class="badge ">Angular</span>
+                        <span class="badge ">Node.js</span>
+                        <span class="badge ">AWS</span>
+                        <span class="badge ">MySQL</span>
+                    </div>
+                </div>
+                <div class="work-container">
+                    <img src="images/officemaps.PNG" alt="office-maps" class="work-image">
+                    <div class="middle office-maps fixed-icon">
+                        <p><span class="lang-text9"></span></p>
+                        <a href="mailto:lukyvavra@seznam.cz>"><i class="fas fa-envelope fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item scroll" data-aos="fade-up" data-aos-duration="3000">
+                <div class="work-container">
+                    <img src="images/marketa.PNG" alt="marketapalkoskova" class="work-image">
+                    <div class="middle">
+                        <a href="http://marketapalkoskova.wz.cz" class="text" target="_blank"
+                            referrerpolicy="no-referrer"><span class="lang-text10"></span><i
+                                class="fas fa-external-link-alt fa-1x"></i></a>
+                    </div>
+                </div>
+                <div class="work-text">
+                    <h2>Markéta Palkosková</h2>
+                    <p class="text-justify"><span class="lang-text11"></span></p>
+                    <div class="badges">
+                        <span class="badge ">HTML</span>
+                        <span class="badge ">CSS</span>
+                        <span class="badge ">JS</span>
+                        <span class="badge ">jQuery</span>
+                        <span class="badge ">Bootstrap</span>
+                        <a href="https://github.com/hawrancz99/marketapalkoskova" target="_blank"
+                            referrerpolicy="no-referrer">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item scroll" data-aos="fade-up" data-aos-duration="3000">
+                <div class="work-text">
+                    <h2>Fit.me</h2>
+                    <p class="text-justify"><span class="lang-text30"></span></p>
+                    <div class="badges">
+                        <span class="badge ">React</span>
+                        <span class="badge ">Node.js</span>
+                        <span class="badge ">GraphQL</span>
+                        <span class="badge ">MySQL</span>
+                        <span class="badge ">Google Maps API</span>
+                        <a href="https://github.com/hawrancz99/fitme-ui" target="_blank" referrerpolicy="no-referrer">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/hawrancz99/fitme-war" target="_blank" referrerpolicy="no-referrer">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work-container project-video-container">
+                    <div>
+                        <video autoplay loop muted>
+                            <source src="videos/fitme.mp4" type="video/mp4">
+                            <p>Your browser doesn't support HTML5 video. Here is
+                                a <a href="https://youtu.be/nqo3I48jpTc">link to the video</a> instead.</p>
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item scroll" data-aos="fade-up" data-aos-duration="3000">
+                <div class="work-container">
+                    <img src="images/gshop.PNG" alt="G-SHOP" class="work-image">
+                    <div class="middle">
+                        <a href="https://github.com/hawrancz99/gshop" class="text" target="_blank"
+                            referrerpolicy="no-referrer"><span class="lang-text29"></span><i
+                                class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="work-text">
+                    <h2>G-SHOP</h2>
+                    <p class="text-justify"><span class="lang-text12"></span></p>
+                    <div class="badges">
+                        <span class="badge ">HTML</span>
+                        <span class="badge ">CSS</span>
+                        <span class="badge ">JS</span>
+                        <span class="badge ">PHP</span>
+                        <span class="badge ">Bootstrap</span>
+                        <span class="badge ">Facebook OAuth</span>
+                        <span class="badge ">MySQL</span>
+                        <a href="https://github.com/hawrancz99/gshop" target="_blank" referrerpolicy="no-referrer">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more" data-aos="fade-up" data-aos-duration="3000">
+                <button type="button" class="collapsible" id="collapsible"><span class="lang-text13"></span></button>
+                <div class="content">
+                    <div class="work-item scroll">
+                        <div class="work-container">
+                            <img src="images/adam.PNG" alt="adamvaldhnas.cz" class="work-image">
+                            <div class="middle">
+                                <a href="https://adamvaldhans.cz" class="text" target="_blank"
+                                    referrerpolicy="no-referrer"><span class="lang-text10"></span><i
+                                        class="fas fa-external-link-alt fa-1x"></i></a>
+                            </div>
+                        </div>
+                        <div class="work-text">
+                            <h2>Adam Valdhans</h2>
+                            <p class="text-justify"><span class="lang-text14"></span></p>
+                            <div class="badges">
+                                <span class="badge ">Wordpress</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item scroll">
+                        <div class="work-text">
+                            <h2><span class="lang-text15"></span></h2>
+                            <p class="text-justify"><span class="lang-text16"></span></p>
+                            <div class="badges">
+                                <span class="badge ">HTML</span>
+                                <span class="badge ">CSS</span>
+                                <span class="badge ">JS</span>
+                                <span class="badge ">jQuery</span>
+                                <span class="badge ">Bootstrap</span>
+                            </div>
+
+                        </div>
+                        <div class="work-container">
+                            <img src="images/roztoky.PNG" alt="roztockepivnislavnosti" class="work-image">
+                            <div class="middle">
+                                <a href="http://roztockepivnislavnosti.cz" class="text" target="_blank"
+                                    referrerpolicy="no-referrer"><span class="lang-text10"></span><i
+                                        class="fas fa-external-link-alt fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item scroll">
+                        <div class="work-container scroll">
+                            <img src="images/dota.PNG" alt="dota2statistics" class="work-image">
+                            <div class="middle">
+                                <a href="http://dota2statistics.wz.cz" class="text" target="_blank"
+                                    referrerpolicy="no-referrer"><span class="lang-text10"></span><i
+                                        class="fas fa-external-link-alt fa-1x"></i></a>
+                            </div>
+                        </div>
+                        <div class="work-text">
+                            <h2>Dota 2 Statistics</h2>
+                            <p class="text-justify"><span class="lang-text17"></span></p>
+                            <div class="badges">
+                                <span class="badge ">HTML</span>
+                                <span class="badge ">CSS</span>
+                                <span class="badge ">JS</span>
+                                <span class="badge ">jQuery</span>
+                                <span class="badge ">OpenDota API</span>
+                                <a href="https://github.com/hawrancz99/dota2-statistics" target="_blank"
+                                    referrerpolicy="no-referrer">
+                                    <i class="fab fa-github fa-2x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item scroll">
+                        <div class="work-text">
+                            <h2>Donikin House, s.r.o.</h2>
+                            <p class="text-justify"><span class="lang-text18"></span></p>
+                            <div class="badges">
+                                <span class="badge ">HTML</span>
+                                <span class="badge ">CSS</span>
+                                <span class="badge ">JS</span>
+                            </div>
+                        </div>
+                        <div class="work-container scroll">
+                            <img src="images/donikin.PNG" alt="donikin" class="work-image">
+                            <div class="middle">
+                                <a href="http://donikinhouse.wz.cz" class="text" target="_blank"
+                                    referrerpolicy="no-referrer"><span class="lang-text10"></span><i
+                                        class="fas fa-external-link-alt fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-item item4" id="about">
+            <h1 data-aos="fade-up" data-aos-duration="3000"><span class="parentheses">`${</span><span
+                    class="lang-text2"></span><span class="parentheses">}`</span></h1>
+            <div class="profile-img-container" data-aos="fade-up" data-aos-duration="3000">
+                <img class="profile-image" alt="image of me" src="images/me.png">
+            </div>
+            <div class="resume scroll" data-aos="fade-up" data-aos-duration="3000">
+                <a href="https://www.linkedin.com/in/luk%C3%A1%C5%A1-v%C3%A1vra-0117791b6/
+                    " target="_blank" referrerpolicy="no-referrer">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://drive.google.com/file/d/1kmaNz9Qk1vyXHavLiJbUS32VlkGMfmDo/view?usp=sharing"
+                    class="text" target="_blank" referrerpolicy="no-referrer"><span class="lang-text19"></span><i
+                        class="fas fa-file-download"></i></a>
+            </div>
+            <p class="scroll text-justify" data-aos="fade-up" data-aos-duration="3000"><span class="lang-text20"></span>
+                <a class="thesis hover-underline-animation"
+                    href="https://fis.vse.cz/bakalarske-studium/bakalarske-programy/program-aplikovana-informatika/"
+                    target="_blank" referrerpolicy="no-referrer"><span class="lang-text21"></span></a><span
+                    class="lang-text22"></span>
+                <a class="thesis hover-underline-animation"
+                    href="https://fis.vse.cz/magisterske-studium/magisterske-programy/program-informacni-systemy-a-technologie/"
+                    target="_blank" referrerpolicy="no-referrer"><span class="lang-text23"></span></a><span
+                    class="lang-text24"></span>
+            </p>
+            <div class="skills">
+                <h2 data-aos="fade-up" data-aos-duration="3000"><span class="lang-text25"></span></h2>
+                <div class="main-skills scroll">
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-html5 fa-5x"></i>
+                        <span class="skill-text"> HTML / 4 <span class="lang-text26"></span></span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-css3-alt fa-5x"></i>
+                        <span class="skill-text"> CSS / 4 <span class="lang-text26"></span></span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-js fa-5x"></i>
+                        <span class="skill-text"> JavaScript / 4 <span class="lang-text26"></span></span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-angular fa-5x"></i>
+                        <span class="skill-text"> Angular / 2 <span class="lang-text26"></span></span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="devicon-typescript-plain devicon-devicon-big"></i>
+                        <span class="skill-text"> Typescript / 2 <span class="lang-text26"></span></span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="devicon-visualstudio-plain devicon-devicon-big"></i>
+                        <span class="skill-text"> VS Code </span>
+                    </div>
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="3000"><span class="lang-text27"></span></h2>
+                <div class="other-skills scroll">
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <img class="skill-img xml" src="images/graphql.png" alt="graphql logo">
+                        <span class="skill-text"> GraphQL </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-react fa-3x"></i>
+                        <span class="skill-text"> React </span>
+                    </div>
+
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fas fa-database fa-3x"></i>
+                        <span class="skill-text"> SQL </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <img class="skill-img xml" src="images/jquery.png" alt="jquery logo">
+                        <span class="skill-text"> jQuery </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-sass fa-3x"></i>
+                        <span class="skill-text"> SCSS </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fas fa-mobile-alt fa-3x"></i>
+                        <span class="skill-text"><span class="lang-text28"></span></span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-bootstrap fa-3x"></i>
+                        <span class="skill-text"> Bootstrap </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-node fa-3x"></i>
+                        <span class="skill-text"> Node.js</span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-php fa-3x"></i>
+                        <span class="skill-text">PHP</span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <img class="skill-img xml" src="images/mysql.png" alt="MySQL logo">
+                        <span class="skill-text">MySQL</span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-npm fa-3x"></i>
+                        <span class="skill-text">NPM</span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-wordpress-simple fa-3x"></i>
+                        <span class="skill-text"> Wordpress </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-git-alt fa-3x"></i>
+                        <span class="skill-text"> Git </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-github fa-3x"></i>
+                        <span class="skill-text"> GitHub </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-gitlab fa-3x"></i>
+                        <span class="skill-text"> GitLab </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-aws fa-3x"></i>
+                        <span class="skill-text">AWS</span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <img class="skill-img xml" src="images/xml.png" alt="XML logo">
+                        <span class="skill-text">XML</span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fas fa-code fa-3x"></i>
+                        <span class="skill-text">REST API</span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-java fa-3x"></i>
+                        <span class="skill-text"> Java </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-item item5" id="contact">
+            <h1 data-aos="fade-up" data-aos-duration="3000"><span class="parentheses">`${</span><span
+                    class="lang-text3"></span><span class="parentheses">}`</span></h1>
+            <div class="contacts" data-aos="fade-up" data-aos-duration="3000">
+                <div class="contact">
+                    <a href="mailto:lukyvavra@seznam.cz">
+                        <i class="fas fa-envelope"></i>
+                        <span>lukyvavra@seznam.cz</span>
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="https://www.linkedin.com/in/luk%C3%A1%C5%A1-v%C3%A1vra-0117791b6/
+                    " target="_blank" referrerpolicy="no-referrer">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Lukáš Vávra</span>
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="https://github.com/hawrancz99" target="_blank" referrerpolicy="no-referrer">
+                        <i class="fab fa-github fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
+        <div style="overflow:hidden;">
+            <!--WZ-REKLAMA-1.0-->
+        </div>
+    </div>
+    <script src="./particles.js-master/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+    <!--<script src="languages.js" type="text/javascript"></script>-->
+</body>
+
+</html>
