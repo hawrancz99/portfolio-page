@@ -30,11 +30,11 @@ const WORDS_EN = {
   "text17": "Website for displaying player and match statistics from Dota 2 MOBA game. It uses OpenDota API to fetch data. It was created as semestral project for Web technologies class at university.",
   "text18": "Website for construction company in Germany. This is my first webiste that I've created :) ",
   "text19": "My resume ",
-  "text20": "I am web developer with more experience and focus on the frontend, but I can do backend as well. I started learning web development by myself when I was 17 at high school. I created my first website and after that I knew that I want to pursue career in web development. I went to Prague University of Economics and Business and succesfully completed my bachelor's degree in ",
+  "text20": "I am a web developer with more experience and focus on the frontend, but I can do backend as well. I started learning web development by myself when I was 17 in high school. I created my first website and after that, I knew that I want to pursue a career in web development. I went to Prague University of Economics and Business and successfully completed my bachelor's degree in ",
   "text21": "Applied informatics.",
-  "text22": " During my studies I worked as web developer in Siemens and I also created several websites in my free time. I am currently studying for a master's degree in ",
+  "text22": " During my studies, I worked as a web developer at Siemens and I also created several websites in my free time. I am currently studying for a master's degree in ",
   "text23": "Information systems and technologies",
-  "text24": " with a focus on development of information systems.",
+  "text24": " with a focus on the development of information systems. I also studied abroad at The University of Texas at Austin in the USA for one semester.",
   "text25": "I worked the most with",
   "text26": "years",
   "text27": "I also have experience with",
@@ -67,7 +67,7 @@ const WORDS_CZ = {
   "text21": "Aplikovaná informatika.",
   "text22": " Během studií jsem pracoval jako webový vývojář ve společnosti Siemens a ve volném čase jsem také vytvořil několik webových stránek. V současné době studuji magisterský program ",
   "text23": "Informační systémy a technologie",
-  "text24": " se zaměřením na vývoj.",
+  "text24": " se zaměřením na vývoj. Také jsem jeden semestr studoval na Texaská univerzitě v Austinu v USA v rámci výměnného pobytu.",
   "text25": "Nejvíce jsem pracoval s",
   "text26": "roky",
   "text27": "Mám zkušenost také s",
@@ -379,6 +379,19 @@ $(document).ready(function () {
   }
   document.addEventListener("click", closeSubmenu, false);
 
+  const calculateYears = (date) =>{  // birthday is a date
+    let ageDifMs = Date.now() - date;
+    let ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
+
+  document.getElementById("html-years").textContent += calculateYears(new Date(2018,10,1))
+  document.getElementById("css-years").textContent += calculateYears(new Date(2018,10,1))
+  document.getElementById("js-years").textContent += calculateYears(new Date(2018,10,1))
+  document.getElementById("angular-years").textContent += calculateYears(new Date(2019,10,1))
+  document.getElementById("ts-years").textContent += calculateYears(new Date(2019,10,1))
+
+  
   
 
 });

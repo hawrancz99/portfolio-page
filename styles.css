@@ -712,12 +712,11 @@ a {
   flex: 1;
 }
 .web-logo a {
-  padding-left: 30px !important;
   text-align: initial;
   padding-top: 10px !important;
 }
 .web-logo a img{
-  width: 40px;
+  width: 70px;
 }
 
 .project-video-container{
@@ -834,9 +833,6 @@ a {
   }
   h1 {
     font-size: 32px !important;
-  }
-  .web-logo{
-    display: none;
   }
   .work-item {
     display: flex;

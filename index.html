@@ -51,7 +51,7 @@
     <header>
         <nav>
             <ul class="menu">
-                <li class="web-logo"><a href="http://lukasvavra.wz.cz"><img src="/images/logo.png" alt="logo"></a></li>
+                <li class="web-logo"><a href="http://lukasvavra.wz.cz"><img src="/images/monogram.png" alt="logo"></a></li>
                 <li class="item"><a id="menuItem1" href="#work"><span class="lang-text1"></span></a></li>
                 <li class="item"><a id="menuItem2" href="#about"><span class="lang-text2"></span></a></li>
                 <li class="item"><a id="menuItem3" href="#contact"><span class="lang-text3"></span></a></li>
@@ -298,15 +298,15 @@
         <div class="container-item item4" id="about">
             <h1 data-aos="fade-up" data-aos-duration="3000"><span class="parentheses">`${</span><span
                     class="lang-text2"></span><span class="parentheses">}`</span></h1>
-            <div class="profile-img-container" data-aos="fade-up" data-aos-duration="3000">
-                <img class="profile-image" alt="image of me" src="images/me.png">
-            </div>
+            <!--<div class="profile-img-container" data-aos="fade-up" data-aos-duration="3000">
+                <img class="profile-image" alt="image of me" src="images/sf-4-cropped.jpg">
+            </div>-->
             <div class="resume scroll" data-aos="fade-up" data-aos-duration="3000">
                 <a href="https://www.linkedin.com/in/luk%C3%A1%C5%A1-v%C3%A1vra-0117791b6/
                     " target="_blank" referrerpolicy="no-referrer">
                     <i class="fab fa-linkedin fa-2x"></i>
                 </a>
-                <a href="https://drive.google.com/file/d/1kmaNz9Qk1vyXHavLiJbUS32VlkGMfmDo/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1HAyQrrZStmeWUFN8M3W8RBEUAvKg-Egu/view?usp=sharing"
                     class="text" target="_blank" referrerpolicy="no-referrer"><span class="lang-text19"></span><i
                         class="fas fa-file-download"></i></a>
             </div>
@@ -325,27 +325,23 @@
                 <div class="main-skills scroll">
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fab fa-html5 fa-5x"></i>
-                        <span class="skill-text"> HTML / 4 <span class="lang-text26"></span></span>
+                        <span class="skill-text"> HTML / <span id="html-years"></span> <span class="lang-text26"></span></span>
                     </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fab fa-css3-alt fa-5x"></i>
-                        <span class="skill-text"> CSS / 4 <span class="lang-text26"></span></span>
+                        <span class="skill-text"> CSS / <span id="css-years"></span><span class="lang-text26"></span></span>
                     </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fab fa-js fa-5x"></i>
-                        <span class="skill-text"> JavaScript / 4 <span class="lang-text26"></span></span>
+                        <span class="skill-text"> JavaScript / <span id="js-years"></span> <span class="lang-text26"></span></span>
                     </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fab fa-angular fa-5x"></i>
-                        <span class="skill-text"> Angular / 2 <span class="lang-text26"></span></span>
+                        <span class="skill-text"> Angular / <span id="angular-years"></span> <span class="lang-text26"></span></span>
                     </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="devicon-typescript-plain devicon-devicon-big"></i>
-                        <span class="skill-text"> Typescript / 2 <span class="lang-text26"></span></span>
-                    </div>
-                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
-                        <i class="devicon-visualstudio-plain devicon-devicon-big"></i>
-                        <span class="skill-text"> VS Code </span>
+                        <span class="skill-text"> Typescript / <span id="ts-years"></span> <span class="lang-text26"></span></span>
                     </div>
                 </div>
                 <h2 data-aos="fade-up" data-aos-duration="3000"><span class="lang-text27"></span></h2>
@@ -358,7 +354,6 @@
                         <i class="fab fa-react fa-3x"></i>
                         <span class="skill-text"> React </span>
                     </div>
-
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fas fa-database fa-3x"></i>
                         <span class="skill-text"> SQL </span>
@@ -392,24 +387,12 @@
                         <span class="skill-text">MySQL</span>
                     </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
-                        <i class="fab fa-npm fa-3x"></i>
-                        <span class="skill-text">NPM</span>
-                    </div>
-                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fab fa-wordpress-simple fa-3x"></i>
                         <span class="skill-text"> Wordpress </span>
                     </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fab fa-git-alt fa-3x"></i>
                         <span class="skill-text"> Git </span>
-                    </div>
-                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
-                        <i class="fab fa-github fa-3x"></i>
-                        <span class="skill-text"> GitHub </span>
-                    </div>
-                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
-                        <i class="fab fa-gitlab fa-3x"></i>
-                        <span class="skill-text"> GitLab </span>
                     </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fab fa-aws fa-3x"></i>
@@ -420,12 +403,16 @@
                         <span class="skill-text">XML</span>
                     </div>
                     <div class="skill" data-aos="fade-up" data-aos-duration="3000">
-                        <i class="fas fa-code fa-3x"></i>
-                        <span class="skill-text">REST API</span>
-                    </div>
-                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
                         <i class="fab fa-java fa-3x"></i>
                         <span class="skill-text"> Java </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <i class="fab fa-python fa-3x"></i>
+                        <span class="skill-text"> Python </span>
+                    </div>
+                    <div class="skill" data-aos="fade-up" data-aos-duration="3000">
+                        <img class="skill-img xml" src="images/adobe-ill.png" alt="Adobe Illustrator logo">
+                        <span class="skill-text"> Adobe Illustrator </span>
                     </div>
                 </div>
             </div>
