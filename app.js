@@ -14,43 +14,42 @@ const WORDS_EN = {
   "text1": "My work",
   "text2": "About me",
   "text3": "Contact",
-  "text4": "Welcome to my portfolio page. My name is Lukáš Vávra and I build websites or web applications. If you are interested in working with me, please ",
+  "text4": "Welcome to my portfolio page. My name is Lukáš Vávra and I build web applications and websites. If you are interested in working with me, please ",
   "text5": "contact me.",
-  "text6": "Some of my work",
-  "text7": "Office Maps is an internal web application for interactive office maps and desk reservation system. I developed this application as my bachelor's thesis for Siemens Ltd. offices in Czech Republic. It's proprietary software, but you can find more information about the app in the ",
+  "text6": "Examples of my work",
+  "text7": "Office Maps is an internal web application for interactive office maps 🗺️ and desk reservation system 🪑. I developed this application as my bachelor's thesis 🎓 for Siemens Ltd. offices in Czech Republic. It's proprietary software, but you can find more information about the app in the ",
   "text8": "thesis.",
   "text9": "If you want to know more about this project, please contact me. Thanks :)",
   "text10": "Visit website",
   "text11": "Personal website for teacher of German language.",
   "text12": "G-SHOP is e-shop with graphics cards. This e-shop was made as semestral project for Web applications university class. It uses for example Facebook OAuth for user login.",
   "text13": dynamicClosedBtnTextEN, /* POKUD ZMĚNÍŠ TENHLE TEXT, ZMĚN TO I V LOGICE TLAČÍTKA CO ROZBALUJE/SBALUJE DIV A V LOGICE PŘEKLADU, JE TO NA TEXT NAVÁZANÝ*/
-  "text14": "Website for personal fitness trainer. It's a Wordpress site with optimized SEO.",
+  "text14": "Website for a personal fitness trainer. It's a Wordpress site with optimized SEO.",
   "text15": "Roztoky beer festival",
-  "text16": "Website for beer festival in Roztoky u Křivoklátu.",
+  "text16": "Website for a beer festival in Roztoky u Křivoklátu.",
   "text17": "Website for displaying player and match statistics from Dota 2 MOBA game. It uses OpenDota API to fetch data. It was created as semestral project for Web technologies class at university.",
   "text18": "Website for construction company in Germany. This is my first webiste that I've created :) ",
   "text19": "My resume ",
-  "text20": "I am a web developer with more experience and focus on the frontend, but I can do backend as well. I started learning web development by myself when I was 17 in high school. I created my first website and after that, I knew that I want to pursue a career in web development. I went to Prague University of Economics and Business and successfully completed my bachelor's degree in ",
-  "text21": "Applied informatics.",
-  "text22": " During my studies, I worked as a web developer at Siemens and I also created several websites in my free time. I am currently studying for a master's degree in ",
-  "text23": "Information systems and technologies",
-  "text24": " with a focus on the development of information systems. I also studied abroad at The University of Texas at Austin in the USA for one semester.",
-  "text25": "I worked the most with",
+  "text20": "Hey there! 👋 I am a web developer with more experience and focus on the frontend, but I won't get lost in backend rivers as well 🛶. I kicked off my web development journey at 17 during high school, crafting my first website and getting hooked on the dynamic world of coding. Bringing ideas to life through lines of code is my jam, and the constant learning in this field keeps my passion alive. If you want to know more about me, please visit my LinkedIn profile or check out my resume.",
+  "text25": "My main tech stack",
   "text26": "years",
-  "text27": "I also have experience with",
+  "text27": "Other technologies I can work with",
   "text28": "responsive design",
   "text29": "GitHub repository",
-  "text30": "Fit.me is an React web application created at university class \"Agile development of web application\". It was a team project and I worked mostly on frontend and desings but also on backend, which uses Node.js, GraphQL and MySQL database. This application allows you to filter and search for sport grounds, trainers and sport events in your area thanks to Google Maps API. It's also a platform for sport grounds owners and trainers to present their services and offers. Users can sign up for sport events created by trainers and gyms."
+  "text30": "Fit.me is an React web application created at university class \"Agile development of web application\". It was a team project and I worked mostly on frontend and desings but also on backend, which uses Node.js, GraphQL and MySQL database. This application allows you to filter and search for sport grounds, trainers and sport events in your area thanks to Google Maps API. It's also a platform for sport grounds owners and trainers to present their services and offers. Users can sign up for sport events created by trainers and gyms.",
+  "text31": "For my master's thesis project, I developed an IT compliance management system for Siemens. It guides application managers through the complex IT compliance landscape and processes, helping them make their applications IT compliant. It also provides management with clear and transparent oversight of the current state of IT compliance. As a result, this system addresses the company-wide challenge of managing IT compliance, saving time ⌛, costs 💵, and frustration 😡.",
+  "text32": "Wedding website",
+  "text33": "A wedding website with optimized loading of large high quality images for quicker loading times and better UX.",
 };
 
 const WORDS_CZ = {
   "text1": "Moje práce",
   "text2": "O mně",
   "text3": "Kontakt",
-  "text4": "Vítejte na mé portfolio stránce. Jmenuji se Lukáš Vávra a tvořím webové stránky a aplikace. Pokud máte zájem o tvorbu webových stránek, či aplikace, prosím",
+  "text4": "Vítejte na mé portfolio stránce. Jmenuji se Lukáš Vávra a tvořím webové aplikace a stránky. Pokud máte zájem o tvorbu webových stránek, aplikace, či pro mě máte pracovní nabídku, prosím",
   "text5": "kontaktuje mě.",
   "text6": "Příklady mé práce",
-  "text7": "Office Maps je interní webová aplikace pro interaktivní kancelářské mapy a rezervační systém pracovních míst. Tuto aplikaci jsem vyvinul jako součást své bakalářské práce pro kanceláře společnosti Siemens, s.r.o. v České republice. Jedná se o proprietární software, avšak další informace o aplikaci najdete v mé  ",
+  "text7": "Office Maps je interní webová aplikace pro interaktivní kancelářské mapy 🗺️  a rezervační systém pracovních míst 🪑. Tuto aplikaci jsem vyvinul jako součást své bakalářské práce 🎓 pro kanceláře společnosti Siemens, s.r.o. v České republice. Jedná se o proprietární software, avšak další informace o aplikaci najdete v mé  ",
   "text8": " bakalářské práci.",
   "text9": "Pokud byste chtěli vědět více o tomto projektu, prosím kontaktujte mě. Děkuji :)",
   "text10": "Navštívit stránku",
@@ -63,17 +62,16 @@ const WORDS_CZ = {
   "text17": "Webová aplikace pro zobrazení statistik hráčů a zápasů z počítačové MOBA hry Dota 2. K načítání dat používá OpenDota API. Byla vytvořena jako semestrální projekt pro vysokoškolský předmět webové technologie.",
   "text18": "Stránky pro německou stavební firmu. Toto jsou mé úplně první webovky, které jsem kdy vytvořil :).",
   "text19": "Můj životopis ",
-  "text20": "Jsem webový vývojář s více zkušenostmi a zaměřením na frontend, ale rozumím i backendu. Jak vytvářet weby jsem se začal učit sám, když mi bylo 17 na střední škole. Vytvořil jsem svůj první web a ihned poté jsem věděl, že webovému vývoji se budu chtít věnovat i v mém profesním životě. Šel jsem na Vysokou školu ekonomickou v Praze a získal bakalářský titul z oboru",
-  "text21": "Aplikovaná informatika.",
-  "text22": " Během studií jsem pracoval jako webový vývojář ve společnosti Siemens a ve volném čase jsem také vytvořil několik webových stránek. V současné době studuji magisterský program ",
-  "text23": "Informační systémy a technologie",
-  "text24": " se zaměřením na vývoj. Také jsem jeden semestr studoval na Texaská univerzitě v Austinu v USA v rámci výměnného pobytu.",
-  "text25": "Nejvíce jsem pracoval s",
+  "text20": "Ahoj! 👋 Jsem webový vývojář s většími zkušenostmi a zaměřením na frontend, ale neztratím se ani v backendových vodách 🛶. Svou cestu webového vývojáře jsem odstartoval v 17 letech během střední školy, kdy jsem vytvořil svůj první web a propadl dynamickému světu kódování. Přivádění nápadů k životu prostřednictvím řádků kódu je moje záliba a neustálé učení se v tomto oboru udržuje moji vášeň naživu. Pokud se o mně chcete dozvědět více, navštivte můj profil na Linkedin nebo se podívejte na můj životopis.",
+  "text25": "Nejvíce zkušeností mám s",
   "text26": "roky",
-  "text27": "Mám zkušenost také s",
+  "text27": "Pracoval jsem také s",
   "text28": "responzivní design",
   "text29": "GitHub repozitář",
-  "text30": "Fit.me je webová React aplikace vytvořená v rámci předmětu \"Agilní projekt vývoje webové aplikace\" na vysoké škole. Na aplikaci jsme pracovali v týmu a já jsem pracoval především na frontendu, designu ale také na backendu, který je napsán v Node.js a používá GraphQL a MySQL databázi. V aplikaci můžete hledat a filtrovat sportoviště, trenéry a sportovní události ve vašem okolí díky Google Maps API. Aplikace slouží také jako platforma, kde můžou sportoviště a trenéři prezentovat svoje služby. Uživatelé se pak můžou přihlásit na události vytvořené sportovišti nebo trenéry."
+  "text30": "Fit.me je webová React aplikace vytvořená v rámci předmětu \"Agilní projekt vývoje webové aplikace\" na vysoké škole. Na aplikaci jsme pracovali v týmu a já jsem pracoval především na frontendu, designu ale také na backendu, který je napsán v Node.js a používá GraphQL a MySQL databázi. V aplikaci můžete hledat a filtrovat sportoviště, trenéry a sportovní události ve vašem okolí díky Google Maps API. Aplikace slouží také jako platforma, kde můžou sportoviště a trenéři prezentovat svoje služby. Uživatelé se pak můžou přihlásit na události vytvořené sportovišti nebo trenéry.",
+  "text31": "V rámci mé diplpmové práce jsem vyvinul systém pro správu IT compliance vyvíjených aplikací ve společnosti Siemens. Pomáhá správcům aplikací jednodušeji naplňovat složité požadavky plynoucí z IT compliance nařízení a procesů. Zároveň poskytuje manažerům transapretní přehled o aktuálním stavu IT compliance. Výsledkem je, že tento systém řeší celofiremní problém s IT compliance, šetří čas ⌛, náklady 💵 a frustraci 😡.",
+  "text32": "Svatební stránka",
+  "text33": "Svatební stránka s optimalizací načítání velkých obrázků pro rychlejší načítání a lepší UX."
 };
 
 const userLang = navigator.language || navigator.userLanguage;
@@ -379,17 +377,17 @@ $(document).ready(function () {
   }
   document.addEventListener("click", closeSubmenu, false);
 
-  const calculateYears = (date) =>{  // birthday is a date
+  /*const calculateYears = (date) =>{  // birthday is a date
     let ageDifMs = Date.now() - date;
     let ageDate = new Date(ageDifMs); // miliseconds from epoch
     return Math.abs(ageDate.getUTCFullYear() - 1970);
-  }
+  }*/
 
-  document.getElementById("html-years").textContent += calculateYears(new Date(2018,10,1))
+  /*document.getElementById("html-years").textContent += calculateYears(new Date(2018,10,1))
   document.getElementById("css-years").textContent += calculateYears(new Date(2018,10,1))
   document.getElementById("js-years").textContent += calculateYears(new Date(2018,10,1))
   document.getElementById("angular-years").textContent += calculateYears(new Date(2019,10,1))
-  document.getElementById("ts-years").textContent += calculateYears(new Date(2019,10,1))
+  document.getElementById("ts-years").textContent += calculateYears(new Date(2019,10,1))*/
 
   
   
