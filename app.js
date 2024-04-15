@@ -40,6 +40,7 @@ const WORDS_EN = {
   "text31": "For my master's thesis project, I developed an IT compliance management system for Siemens. It guides application managers through the complex IT compliance landscape and processes, helping them make their applications IT compliant. It also provides management with clear and transparent oversight of the current state of IT compliance. As a result, this system addresses the company-wide challenge of managing IT compliance, saving time ⌛, costs 💵, and frustration 😡.",
   "text32": "Wedding website",
   "text33": "A wedding website with optimized loading of large high quality images for quicker loading times and better UX.",
+  "text34": "A company page of the cable distribution protection supplier"
 };
 
 const WORDS_CZ = {
@@ -71,7 +72,8 @@ const WORDS_CZ = {
   "text30": "Fit.me je webová React aplikace vytvořená v rámci předmětu \"Agilní projekt vývoje webové aplikace\" na vysoké škole. Na aplikaci jsme pracovali v týmu a já jsem pracoval především na frontendu, designu ale také na backendu, který je napsán v Node.js a používá GraphQL a MySQL databázi. V aplikaci můžete hledat a filtrovat sportoviště, trenéry a sportovní události ve vašem okolí díky Google Maps API. Aplikace slouží také jako platforma, kde můžou sportoviště a trenéři prezentovat svoje služby. Uživatelé se pak můžou přihlásit na události vytvořené sportovišti nebo trenéry.",
   "text31": "V rámci mé diplpmové práce jsem vyvinul systém pro správu IT compliance vyvíjených aplikací ve společnosti Siemens. Pomáhá správcům aplikací jednodušeji naplňovat složité požadavky plynoucí z IT compliance nařízení a procesů. Zároveň poskytuje manažerům transapretní přehled o aktuálním stavu IT compliance. Výsledkem je, že tento systém řeší celofiremní problém s IT compliance, šetří čas ⌛, náklady 💵 a frustraci 😡.",
   "text32": "Svatební stránka",
-  "text33": "Svatební stránka s optimalizací načítání velkých obrázků pro rychlejší načítání a lepší UX."
+  "text33": "Svatební stránka s optimalizací načítání velkých obrázků pro rychlejší načítání a lepší UX.",
+  "text34": "Web dodavatele komplexního systému ochrany kabelových rozvodů."
 };
 
 const userLang = navigator.language || navigator.userLanguage;
